@@ -1,0 +1,123 @@
+                .container {
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    margin-top: 100px;
+                    border: blue solid 2px;
+                    background-color: lightgrey;
+                }
+                
+                .check-list {
+                    background: #fff;
+                    padding: 30px 30px 20px;
+                }
+                
+                ul {
+                    list-style-type: none;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    padding-inline-start: 40px;
+                }
+                
+                li {
+                    display: inline-block;
+                }
+                
+                .check-list li label.active-btn {
+                    background-color: red;
+                }
+                
+                .other-amt {
+                    display: inline-block;
+                }
+                
+                .check-list li input {
+                    font-size: 1.4em;
+                    line-height: 1;
+                    border: 2px solid #3b7840;
+                    padding: 0.55em 0.55em 0.55em 0.8em;
+                    color: #3b7840;
+                }
+                
+                .check-list input[type=radio] {
+                    opacity: 0;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                
+                .check-list label {
+                    display: block;
+                    font-size: 16px;
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: normal;
+                    background: #ffffff;
+                    border: 1px solid #f4f4f4;
+                    color: #000;
+                    padding: 8px 8px;
+                    margin: 20px;
+                    border-radius: 0;
+                    cursor: pointer;
+                    -webkit-transition: all 0.1s ease-out;
+                    transition: all 0.1s ease-out;
+                }
+                
+                .check-list li.other-amount {
+                    width: 38%;
+                    float: right;
+                }
+                /* .check-list li label:active {
+                    background-color: lime;
+                } */
+                
+                .check-list li span {
+                    /* position: absolute;
+                    left: 659px;
+                    top: 285px; */
+                    font-size: 16px;
+                    font-family: 'Roboto Slab', serif;
+                    color: black;
+                    clear: both;
+                }
+                
+                .check-list input[type="text"] {
+                    height: 40px;
+                }
+                
+                option {
+                    font-weight: normal;
+                    display: block;
+                    white-space: pre;
+                    min-height: 1.2em;
+                    padding: 0px 2px 1px;
+                }
+                
+                select {
+                    display: block;
+                    width: 20%;
+                    line-height: 24px;
+                    height: 50px;
+                    font-size: 16px;
+                    box-shadow: none;
+                    border: 1px solid #1EB8F0;
+                    padding: 12px 15px;
+                    background: #fff;
+                    border-radius: 0px;
+                    transition: all 500ms ease;
+                    -webkit-transition: all 500ms ease;
+                    -ms-transition: all 500ms ease;
+                    -o-transition: all 500ms ease;
+                }
+                
+                .select-box .filter-option {
+                    border: 1px solid #1EB8F0 !important;
+                }
+                
+                @media screen and (max-width: 768px) {
+                    .check-list li {
+                        width: 100%;
+                    }
+                }
